@@ -65,9 +65,7 @@ This project was created by students from **AMC Engineering College**:
 
 - **Ayush Kumar Choudhary** - Team Leader & Coder
 - **Jyotsna G** - Creative Ideas & Design
-- **Khushi Kalpesh Joshi** - Versatile Team Member
-- **Deepak Pattanayak** - Project Direction
-- **Bijayanee Samal** - Support & Assistance
+
 
 ## 🎯 Mission
 
