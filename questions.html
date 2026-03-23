@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emotional Health Analyzer - Questions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+            <a href="index.html">
+                <img src="images/logos.jpeg" ></img>Emotional Health Analyzer
+            </a>
+        </div>
+            <div class="nav-links">
+                <a href="index.html">Home</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="quiz">
+            <div class="progress-bar">
+            <div class="question">
+                <h2>Question <span class="question-number">1</span>:</h2>
+                <p class="question-text"></p>
+                <div class="options">
+                    <input type="radio" id="option1" name="question" value="1">
+                    <label for="option1" class="option-label">Never</label>
+                    <input type="radio" id="option2" name="question" value="2">
+                    <label for="option2" class="option-label">Rarely</label>
+                    <input type="radio" id="option3" name="question" value="3">
+                    <label for="option3" class="option-label">Sometimes</label>
+                    <input type="radio" id="option4" name="question" value="4">
+                    <label for="option4" class="option-label">Often</label>
+                    <input type="radio" id="option5" name="question" value="5">
+                    <label for="option5" class="option-label">Always</label>
+                </div>
+            </div>
+            <div class="navigation">
+                <button class="prev">Previous</button>
+                <button class="next">Next</button>
+                <button class="submit" disabled>Submit</button>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="foot">
+        <p>&copy; 2024 Emotional Health Analyzer. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
